@@ -7,41 +7,43 @@ import './assets/css/bootstrap-reboot.css'
 import './assets/css/bootstrap.css'
 import './assets/css/bootstrap-grid.css'
 import './assets/css/main.css'
-// import './assets/css/fonts.min.css'
-// import './assets/fonts/fontawesome-all.js'
+import './assets/css/fonts.min.css'
+import './assets/fonts/fontawesome-all.js'
+import VMdDateRangePicker from "v-md-date-range-picker"
+import "vue-gifplayer/src/gif.css"
+import VueCharts from 'vue-chartjs'
+import VueCircle from 'vue2-circle-progress'
+import FullCalendar from 'vue-full-calendar'
+import VueMoment from 'vue-moment'
+import Swiper from 'vue-swiper'
+import Selectize from 'vue2-selectize'
+import VueMaterial from 'vue-material'
+import VueWaypoint from 'vue-waypoint'
+import RangeSlider from 'vue-range-slider'
+import { Mediaelement } from 'vue-mediaelement';
+import JQuery from 'jquery'
+import VueLoaders from 'vue-loaders'
+import PerfectScrollbar from 'vue2-perfect-scrollbar'
 
-// import './assets/js/jquery-3.4.1.js'
-// import './assets/js/jquery.mousewheel.js'
-// import './assets/js/perfect-scrollbar.js'
-// import './assets/js/svgxuse.js'
-// import './assets/js/Headroom.js'
-// import './assets/js/velocity.js'
-// import './assets/js/jquery.waypoints.js'
-// import './assets/js/popper.min.js'
-// import './assets/js/material.min.js'
-// import './assets/js/smooth-scroll.js'
+
+
+
+ import './assets/js/svgxuse.js'
+ import './assets/js/Headroom.js'
+import './assets/js/velocity.js'
+import './assets/js/popper.min.js'
+import './assets/js/smooth-scroll.js'
 // import './assets/js/main2.js'
-// import JQuery from 'jquery'
-// import './assets/js/selectize.js'
-// import './assets/js/swiper.jquery.js'
-// import './assets/js/moment.js'
-// import './assets/js/daterangepicker.js'
-// import './assets/js/fullcalendar.js'
-// import './assets/js/ajax-pagination.js'
-// import './assets/js/Chart.js'
-// import './assets/js/chartjs-plugin-deferred.js'
-// import './assets/js/circle-progress.js'
-// import './assets/js/loader.js'
-// import './assets/js/run-chart.js'
-// import './assets/js/jquery.magnific-popup.js'
-// import './assets/js/jquery.gifplayer.js'
-// import './assets/js/mediaelement-playlist-plugin.min.js'
-// import './assets/js/ion.rangeSlider.js'
-// import './assets/js/libs-init.js'
+import './assets/js/Chart.js'
+import './assets/js/chartjs-plugin-deferred.js'
 
 
 //http://localhost:8080/
-
+Vue.use(VueLoaders);
+Vue.use(FullCalendar),
+Vue.use(VMdDateRangePicker);
+Vue.use(VueMoment),
+Vue.component('mediaelement', Mediaelement);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

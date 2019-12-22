@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+
   <div class="main-header main-landing">
 
   <div class="content-bg-wrap bg-landing"></div>
@@ -89,8 +90,10 @@
         <div class="landing-item-thumb">
           <img src="../assets/screenshots/landing-item3-1.jpg" loading=lazy data-src="./assets/screenshots/landing-item3-1.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
-          <a target="_blank"  href="03-Newsfeed-Masonry.html" class="btn btn-breez btn-sm">Go to the Page</a>
-          <a target="_blank"  href="03-Newsfeed-Masonry.html" class="full-block"></a>
+           <router-link to="/newsfeedMasonry" class="nav-link" active-class=" active" > <a target="_blank"  href="03-Newsfeed.html" class="btn btn-breez btn-sm">Go to the Page</a>
+          <a target="_blank"  href="03-Newsfeed.html" class="full-block"></a></router-link>
+        
+    
         </div>
         <div class="title">Newsfeed - Masonry</div>
       </div>
@@ -100,8 +103,9 @@
         <div class="landing-item-thumb">
           <img src="../assets/screenshots/landing-item4.jpg" loading=lazy data-src="./assets/screenshots/landing-item4.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
-          <a target="_blank"  href="04-PostVersions.html" class="btn btn-breez btn-sm">Go to the Page</a>
-          <a target="_blank"  href="04-PostVersions.html" class="full-block"></a>
+            <router-link to="/postVersions" class="nav-link" active-class=" active" > <a target="_blank"  href="03-Newsfeed.html" class="btn btn-breez btn-sm">Go to the Page</a>
+          <a target="_blank"  href="03-Newsfeed.html" class="full-block"></a></router-link>
+       
         </div>
         <div class="title">Post Versions</div>
       </div>
@@ -355,7 +359,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item26.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item26.jpg" loading=lazy data-src="screenshots/landing-item26.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="30-YourAccount-ChangePassword.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="30-YourAccount-ChangePassword.html" class="full-block"></a>
@@ -367,7 +371,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item27.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item27.jpg" loading=lazy data-src="screenshots/landing-item27.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="31-YourAccount-HobbiesAndInterests.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="31-YourAccount-HobbiesAndInterests.html" class="full-block"></a>
@@ -379,7 +383,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item28.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item28.jpg" loading=lazy data-src="screenshots/landing-item28.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="32-YourAccount-EducationAndEmployement.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="32-YourAccount-EducationAndEmployement.html" class="full-block"></a>
@@ -391,7 +395,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item29.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item29.jpg" loading=lazy data-src="screenshots/landing-item29.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="33-YourAccount-Notifications.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="33-YourAccount-Notifications.html" class="full-block"></a>
@@ -403,7 +407,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item30.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item30.jpg" loading=lazy data-src="screenshots/landing-item30.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="34-YourAccount-ChatMessages.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="34-YourAccount-ChatMessages.html" class="full-block"></a>
@@ -415,7 +419,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item31.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item31.jpg" loading=lazy data-src="screenshots/landing-item31.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="35-YourAccount-FriendsRequests.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="35-YourAccount-FriendsRequests.html" class="full-block"></a>
@@ -427,7 +431,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item32.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item32.jpg" loading=lazy data-src="screenshots/landing-item32.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="36-FavPage-SettingsAndCreatePopup.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="36-FavPage-SettingsAndCreatePopup.html" class="full-block"></a>
@@ -439,7 +443,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item33.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item33.jpg" loading=lazy data-src="screenshots/landing-item33.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="00-Typography.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="00-Typography.html" class="full-block"></a>
@@ -451,7 +455,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item104.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item104.jpg" loading=lazy data-src="screenshots/landing-item104.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="73-SocialSearchResults.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="73-SocialSearchResults.html" class="full-block"></a>
@@ -464,7 +468,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item105.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item105.jpg" loading=lazy data-src="screenshots/landing-item105.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="74-ProfilePage-LoggedOut.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="74-ProfilePage-LoggedOut.html" class="full-block"></a>
@@ -477,7 +481,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item2.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item2.jpg" loading=lazy data-src="screenshots/landing-item2.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="98-StickySidebars.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="98-StickySidebars.html" class="full-block"></a>
@@ -490,7 +494,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item106.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item106.jpg" loading=lazy data-src="screenshots/landing-item106.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="97-PostFormats.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="97-PostFormats.html" class="full-block"></a>
@@ -503,7 +507,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item24.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item24.jpg" loading=lazy data-src="screenshots/landing-item24.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="37-YouAccount-TabsVersion.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="37-YouAccount-TabsVersion.html" class="full-block"></a>
@@ -516,7 +520,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item110.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item110.jpg" loading=lazy data-src="screenshots/landing-item110.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="39-PageWithoutLeftPanel.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="39-PageWithoutLeftPanel.html" class="full-block"></a>
@@ -529,7 +533,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item111.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item111.jpg" loading=lazy data-src="screenshots/landing-item111.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="38-PageWithoutRightPanel.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="38-PageWithoutRightPanel.html" class="full-block"></a>
@@ -542,7 +546,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item112.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item112.jpg" loading=lazy data-src="screenshots/landing-item112.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="75-FavouritePage-WithTabs.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="75-FavouritePage-WithTabs.html" class="full-block"></a>
@@ -555,7 +559,7 @@
     <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
       <div class="landing-item">
         <div class="landing-item-thumb">
-          <img src="" loading=lazy data-src="screenshots/landing-item113.jpg" alt="page">
+          <img src="../assets/screenshots/landing-item113.jpg" loading=lazy data-src="screenshots/landing-item113.jpg" alt="page">
           <div class="overlay overlay-dark"></div>
           <a target="_blank" href="76-ThemeIcons.html" class="btn btn-breez btn-sm">Go to the Page</a>
           <a target="_blank" href="76-ThemeIcons.html" class="full-block"></a>
@@ -565,25 +569,7 @@
       </div>
     </div>
 
-    <div class="col col-lg-12 col-md-12 col-sm-12 offset-sm-0 col-12">
-      <div class="landing-main-content">
-        <h2 class="title">Olympus Company Pages</h2>
-      </div>
-    </div>
 
-    
-
-    <div class="col col-lg-12 col-md-12 col-sm-12 offset-sm-0 col-12">
-      <div class="landing-main-content">
-        <h2 class="title">Olympus Components</h2>
-      </div>
-    </div>
-
-    
-
-    <div class="col col-xl-12 col-12 align-center padding80">
-      <a target="_blank" href="https://themeforest.net/item/olympus-html-social-network-toolkit/19755363" class="btn btn-primary btn-lg">All Features List</a>
-    </div>
 
   </div>
 </div>

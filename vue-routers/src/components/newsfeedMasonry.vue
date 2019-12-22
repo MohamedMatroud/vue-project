@@ -2122,7 +2122,7 @@
 			<div class="clients-grid">
 
 				<ul class="cat-list-bg-style align-center sorting-menu">
-					<li class="cat-list__item active" data-filter="*"><a href="#" class="">All Projects</a></li>
+					<li class="cat-list__item active" data-filter="*"><a href="clients-grid-1" class="">All Projects</a></li>
 					<li class="cat-list__item" data-filter=".politics"><a href="#" class="">Politics</a></li>
 					<li class="cat-list__item" data-filter=".natural"><a href="#" class="">Natural</a></li>
 					<li class="cat-list__item" data-filter=".worlds"><a href="#" class="">Worlds</a></li>
@@ -2130,7 +2130,7 @@
 					<li class="cat-list__item" data-filter=".family"><a href="#" class="">Family</a></li>
 				</ul>
 
-				<div class="row sorting-container" id="clients-grid-1" data-layout="masonry">
+				<div class="row sorting-container" id="#clients-grid-1" data-layout="masonry">
 
 					<div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 sorting-item ecommerce natural">
 						<div class="ui-block">

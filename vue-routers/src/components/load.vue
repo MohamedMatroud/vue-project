@@ -280,11 +280,13 @@
       
                   <div class="form-group date-time-picker label-floating">
                     <label class="control-label">Your Birthday</label>
-                    <input name="datetimepicker" value="10/24/1984" />
+                    <input name="v-md-date-range-picker" value="10/24/1984" />
                     <span class="input-group-addon">
                             <svg class="olymp-calendar-icon"><use xlink:href="../assets/svg-icons/sprites/icons.svg#olymp-calendar-icon"></use></svg>
                           </span>
                   </div>
+
+
       
                   <div class="form-group label-floating is-select">
                     <label class="control-label">Your Gender</label>
